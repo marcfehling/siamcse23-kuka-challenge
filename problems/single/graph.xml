@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="row" for="node" attr.name="row" attr.type="int"/>
+  <key id="col" for="node" attr.name="col" attr.type="int"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n00">
+      <data key="row">0</data>
+      <data key="col">0</data>
+    </node>
+    <node id="n01">
+      <data key="row">0</data>
+      <data key="col">1</data>
+    </node>
+    <node id="n02">
+      <data key="row">0</data>
+      <data key="col">2</data>
+    </node>
+    <node id="n10">
+      <data key="row">1</data>
+      <data key="col">0</data>
+    </node>
+    <node id="n11">
+      <data key="row">1</data>
+      <data key="col">1</data>
+    </node>
+    <node id="n12">
+      <data key="row">1</data>
+      <data key="col">2</data>
+    </node>
+    <edge source="n00" target="n01"/>
+    <edge source="n00" target="n10"/>
+    <edge source="n01" target="n00"/>
+    <edge source="n01" target="n02"/>
+    <edge source="n01" target="n11"/>
+    <edge source="n02" target="n01"/>
+    <edge source="n02" target="n12"/>
+    <edge source="n10" target="n00"/>
+    <edge source="n10" target="n11"/>
+    <edge source="n11" target="n01"/>
+    <edge source="n11" target="n10"/>
+    <edge source="n11" target="n12"/>
+    <edge source="n12" target="n02"/>
+    <edge source="n12" target="n11"/>
+  </graph>
+</graphml>

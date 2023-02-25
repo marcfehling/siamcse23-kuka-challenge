@@ -1,0 +1,16 @@
+---
+a0: 
+- [move,a0,n01]
+- [move,a0,n11]
+- [wait,a0,n11]
+- [wait,a0,n11]
+- [move,a0,n01]
+- [move,a0,n02]
+- [move,a0,n03]
+- [pick,a0,n03,b1]
+a1: 
+- [wait,a1,n02]
+- [wait,a1,n02]
+- [move,a1,n01]
+- [move,a1,n00]
+- [drop,a1,n00,b0]

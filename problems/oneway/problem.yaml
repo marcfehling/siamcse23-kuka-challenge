@@ -1,0 +1,59 @@
+---
+agents: [a0, a1, a2, a3, a4]
+boxes: [b00, b01, b02, b03, b04, b05, b06, b07, b08, b09, 
+        b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, 
+        b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, 
+        b31, b32]
+state: 
+  a0: n01
+  a1: n02
+  a2: n94
+  a3: n95
+  a4: n96
+  b00: n04
+  b01: n07
+  b02: n09
+  b03: n0c
+  b04: n14
+  b05: n17
+  b06: n19
+  b07: n1c
+  b08: n34
+  b09: n37
+  b10: n39
+  b11: n3c
+  b12: n44
+  b13: n47
+  b14: n49
+  b15: n4c
+tasks:
+  - [pick,a4,n07,b01]
+  - [unload,a4,n30,b01]
+  - [load,a0,n01,b16]
+  - [drop,a0,n07,b16]
+  
+  - [pick,a3,n04,b00]
+  - [unload,a3,n30,b00]
+  - [load,a1,n01,b17]
+  - [drop,a1,n04,b17]
+  
+  - [pick,a2,n39,b10]
+  - [unload,a2,n30,b10]
+  - [load,a4,n02,b18]
+  - [drop,a4,n39,b18]
+  
+  - [pick,a0,n4c,b15]
+  - [unload,a0,n30,b15]
+  - [load,a3,n02,b19]
+  - [drop,a3,n4c,b19]
+  
+  - [pick,a1,n1c,b07]
+  - [unload,a1,n30,b07]
+  - [load,a2,n01,b20]
+  - [drop,a2,n1c,b20]
+  
+  - [pick,a3,n09,b02]
+  - [unload,a3,n30,b02]
+  - [load,a0,n01,b21]
+  - [drop,a0,n09,b21]
+  

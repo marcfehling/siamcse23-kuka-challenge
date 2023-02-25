@@ -1,0 +1,12 @@
+---
+agents: [a0, a1]
+boxes: [b0, b1, b2]
+state:
+  a0: n00
+  a1: n02
+  b0: a1
+  b1: n03
+  b2: n11
+tasks:
+  - [pick,a0,n03,b1]
+  - [drop,a1,n00,b0]

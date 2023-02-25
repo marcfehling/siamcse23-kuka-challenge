@@ -1,0 +1,26 @@
+---
+agents: [a0, a1, a2, a3]
+boxes: [b0, b1, b2, b3]
+state:
+  a0: n00
+  a1: n02
+  a2: n20
+  a3: n22
+  b0: n12
+  b1: n01
+  b2: n21
+  b3: n10
+tasks:
+  - [pick,a3,n10,b3]
+  - [pick,a0,n12,b0]
+  - [pick,a2,n21,b2]
+  - [pick,a1,n01,b1]
+  - [drop,a3,n00,b3]
+  - [drop,a1,n11,b1]
+  - [drop,a0,n10,b0]
+  - [drop,a2,n01,b2]
+  - [pick,a3,n01,b2]
+  - [pick,a2,n00,b3]
+  - [drop,a3,n00,b2]
+  - [drop,a2,n01,b3]
+
